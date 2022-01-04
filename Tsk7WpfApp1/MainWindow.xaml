@@ -74,8 +74,6 @@
                 </StackPanel>
             </ToolBar>
         </ToolBarTray>
-        <RichTextBox x:Name="textBox" Grid.Row="2" Margin="5" Padding="5" FontSize="16" FontFamily="Arial"  SpellCheck.IsEnabled="True" xml:lang="ru-ru">
-
-        </RichTextBox>
+        <RichTextBox x:Name="textBox" Grid.Row="2" Margin="5" Padding="5" FontSize="16" FontFamily="Arial"  SpellCheck.IsEnabled="True" xml:lang="ru-ru"/>
     </Grid>
 </Window>

@@ -14,7 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Windows.Documents;
 
 namespace Tsk7WpfApp1
 {
@@ -27,7 +26,7 @@ namespace Tsk7WpfApp1
         {
             InitializeComponent();
         }
-
+        //Методы для открытия и сохранения (из примера по RichTextBox)
         private void OpenExecuted(object sender, ExecutedRoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -67,7 +66,7 @@ namespace Tsk7WpfApp1
         {
             Application.Current.Shutdown();
         }
-
+        //Из изначальной задачи без изменений
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string fontName = ((sender as ComboBox).SelectedItem as TextBlock).Text;
